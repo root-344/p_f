@@ -45,24 +45,44 @@ header {
   list-style: none;
   font-size: 20px;
 }
-///　ヘッダー部分
-
-.contents {
-}
+/// ヘッダー部分
+// ボディー部分
+ .contents { 
+   background-color: white;
+ }
   .first-view {
-    background-color: blue;
-    height: 60vh;
+    height: 50vh;
+  }
+
+  .top-image {
+    height: 100%; 
+    width: 100%;
   }
   .upper-content {
-    background-color: khaki;
     height: 500px;
     margin: 0 100px;
   }
+    .heading-name {
+      font-size: 25px;
+      text-align: center;
+    }
+
+    .content-lists {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100%;
+    }
+
+    .content-list {
+      height: 200px;
+      width: 200px;
+      list-style: none;
+    }
 
   .middle-content {
     background-color: coral;
     height: 500px;
-    margin: 0 100px;
   }
 
   .bottom-content {
