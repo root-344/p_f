@@ -1,15 +1,48 @@
-.titles {
-  background-color: red;
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
 }
 
-.title {
-  background-color: blue;
+ul,li {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: red;
+  height: 50px;
 }
 
 .contents {
-  background-color: green;
 }
+  .first-view {
+    background-color: blue;
+    height: 60vh;
+  }
+  .upper-content {
+    background-color: khaki;
+    height: 500px;
+    margin: 0 100px;
+  }
 
-.contacts {
-  background-color: hotpink;
+  .middle-content {
+    background-color: coral;
+    height: 500px;
+    margin: 0 100px;
+  }
+
+  .bottom-content {
+    background-color: cadetblue;
+    height: 300px;
+    margin: 0 100px;
+  }
+
+footer {
+  background-color: indigo;
+  height: 50px;
 }
