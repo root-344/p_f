@@ -84,26 +84,66 @@ header {
     background-color: coral;
     height: 500px;
   }
+  
   .middle-name {
     font-size: 25px;
     text-align: center;
   }
 
-  .about-lists {
+  .abouts {
     text-align: center;
   }
 
-  .about-list {
+  .about {
     list-style: none;
   }
 
-  .bottom-content {
-    background-color: cadetblue;
-    height: 300px;
-    margin: 0 100px;
+.bottom-content {
+  height: 600px;
+  margin: 0 100px;
+  }
+  
+  .bottom-name {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .contact-form {
+    display: flex;
+  }
+
+  .contacts {
+    justify-content: left;
+    font-size: 20px;
+  }
+
+    .contact {
+      list-style:outside;
+      margin: 15px 0;
+
+    }
+
+  .large-field {
+    width: 800px;
+    height: 250px;
+    font-size: 16px;
+    padding: 15px;
+    border: 3px solid #b5aaaa;
+    display: block;
+    margin: 30px auto 30px;
+  }
+  
+  .send {
+    width: 200px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid white;
+    background-color: lightblue;
+    color:white;
+    display: block;
   }
 
 footer {
-  background-color: indigo;
+  background-color: lightgray;
   height: 50px;
 }
