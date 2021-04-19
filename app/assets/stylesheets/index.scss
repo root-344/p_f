@@ -67,6 +67,7 @@ header {
       font-size: 25px;
       text-align: center;
       border-bottom:red solid 1px;
+      text-shadow: 0 0 1px rgba(0, 0, 0, 0.9);
     }
 
     .content-lists {
@@ -120,11 +121,7 @@ header {
     .contact {
       list-style:outside;
       margin: 15px 0;
-
     }
-  .contact-form {
-    
-  }
 
     .large-field {
       width: 800px;
