@@ -95,6 +95,11 @@ header {
         color:yellowgreen;
       }
 
+      .mb-5 {
+        text-align: center;
+        color: blue;
+      }
+
   .middle-content {
     background-color:lightblue;
     height: 500px;
@@ -106,10 +111,11 @@ header {
 
   .profile {
     list-style: none;
+    margin: 10px auto;
   }
 
 .bottom-content {
-  height: 600px;
+  height: 800px;
   margin: 0 100px;
   }
 
@@ -121,6 +127,12 @@ header {
     .contact {
       list-style:outside;
       margin: 15px 0;
+    }
+
+    .states {
+      border-bottom: green solid 1px;
+      max-width: 40vw;
+      min-width: 40vw;
     }
 
     .large-field {
@@ -142,7 +154,7 @@ header {
       background-color: green;
       color:white;
       display: block;
-    }
+      }
 
 footer {
   background-color: lightgray;
