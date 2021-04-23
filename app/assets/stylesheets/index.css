@@ -52,16 +52,24 @@ header {
 }
 
 .contents {
-  background-color: white;
+  background-color: grey;
+  font-style: italic;
 }
 
 .first-view {
   height: 70vh;
+  background-image: url(https://i.gyazo.com/63e655668c22a5f5a01f3bf43633dd9a.jpg);
+  background-size: cover;
 }
 
 .top-image {
   height: 100%;
   width: 100%;
+}
+
+.view-comment {
+  padding: 30px 0 0 20px;
+  font-size: 40px;
 }
 
 .upper-content {
@@ -72,7 +80,7 @@ header {
 .heading-name {
   font-size: 25px;
   text-align: center;
-  border-bottom: red solid 1px;
+  border-bottom: gold solid 1px;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.9);
 }
 
@@ -80,7 +88,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100%;
+  height: 80%;
 }
 
 .content-list {
@@ -92,6 +100,7 @@ header {
 .image {
   height: 200px;
   width: 300px;
+  border-radius: 10px;
 }
 
 .cnt-name {
@@ -109,6 +118,11 @@ header {
 .middle-content {
   background-color: lightblue;
   height: 500px;
+}
+
+.middle-content > .heading-name {
+  border-bottom: black solid 1px;
+  margin: 0 30px;
 }
 
 .profiles {
@@ -136,7 +150,7 @@ header {
 }
 
 .states {
-  border-bottom: green solid 1px;
+  border-bottom: gold solid 1px;
   max-width: 40vw;
   min-width: 40vw;
 }
@@ -150,6 +164,7 @@ header {
   border: 3px solid #b5aaaa;
   display: block;
   margin: 30px auto 30px;
+  border-radius: 10px;
 }
 
 .send {
@@ -160,6 +175,11 @@ header {
   background-color: green;
   color: white;
   display: block;
+  border-radius: 10px;
+}
+
+.send:hover {
+  background-color: blue;
 }
 
 footer {
@@ -170,21 +190,8 @@ footer {
 }
 
 @media (max-width: 599px) {
-  .heading {
-    width: 50vw;
-    height: 50px;
-  }
-  .lists {
-    display: flex;
-    justify-content: space-around;
-  }
-  .list {
-    border-right: red solid 1px;
-    list-style: none;
-    font-size: 20px;
-  }
   .contents {
-    background-color: white;
+    background-color: tan;
   }
   .first-view {
     height: 30vh;
@@ -193,9 +200,14 @@ footer {
     height: 100%;
     width: 100%;
   }
+  .view-comment {
+    text-align: center;
+    color: goldenrod;
+    font-size: 35px;
+  }
   .upper-content {
     height: 500px;
-    margin: 30px 100px;
+    margin: 30px 30px;
   }
   .heading-name {
     font-size: 25px;
@@ -207,16 +219,16 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100%;
+    height: 80%;
   }
   .content-list {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 400px;
     list-style: none;
   }
   .image {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 400px;
   }
   .cnt-name {
     text-align: center;
@@ -230,8 +242,8 @@ footer {
     font-size: 20px;
   }
   .middle-content {
-    background-color: lightblue;
-    height: 500px;
+    background-color: chocolate;
+    height: 300px;
   }
   .profiles {
     text-align: center;
@@ -242,11 +254,13 @@ footer {
   }
   .bottom-content {
     height: 800px;
-    margin: 0 100px;
+    margin: 0 0;
+    background-color: mediumseagreen;
   }
   .contacts {
     justify-content: left;
     font-size: 20px;
+    margin: 0 25px;
   }
   .contact {
     list-style: outside;
@@ -272,7 +286,7 @@ footer {
     margin: 0 auto;
     padding: 15px;
     border: 1px solid white;
-    background-color: green;
+    background-color: brown;
     color: white;
     display: block;
   }
