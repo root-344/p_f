@@ -37,6 +37,10 @@ header {
   display: flex;
   justify-content: space-around;
 }
+.lists a {
+  color:black;
+  text-decoration: none;
+}
 .list {
   border-right: red solid 1px;
   list-style: none;
