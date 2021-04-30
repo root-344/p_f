@@ -7,6 +7,39 @@
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script>
+		window.addEventListener('load', (event) => {
+
+
+        // content3の表示位置を取得
+				var content1 = document.getElementById('content1');
+				var content_position = content1.getBoundingClientRect();
+
+        // content3へ移動
+				window.scrollTo( 0, content_position.top);
+
+			});
+
+        // content3の表示位置を取得
+				var content2 = document.getElementById('content2');
+				var content_position = content2.getBoundingClientRect();
+
+        // content3へ移動
+				window.scrollTo( 0, content_position.top);
+
+			});
+      document.getElementById('button3').addEventListener('click', () => {
+
+        // content3の表示位置を取得
+				var content3 = document.getElementById('content3');
+				var content_position = content3.getBoundingClientRect();
+
+        // content3へ移動
+				window.scrollTo( 0, content_position.top);
+
+			});
+		});
+	</script>
   </head>
 
   <body>

@@ -4,15 +4,9 @@
   </div>
   <div class="navbar">
     <ul class="lists">
-      <a href="#" >
-        <li class="list">content</li>
-      </a>
-      <a href="#" >
-        <li class="list">profile</li>
-      </a>
-      <a href="#" >
-        <li class="list">contact</li>
-      </a>
+        <li class="list" id="button1">content</li>
+        <li class="list" id="button2">profile</li>
+        <li class="list" id="button3">contact</li>
     </ul>
   </div>
 </header>
@@ -21,9 +15,9 @@
   <div class="first-view">
     <h1 class="view-comment">~Wellcome!~</h1>
   </div>
-  <div class="upper-content">
+  <div class="upper-content" id="content1">
     <h2 class="heading-name">コンテンツ紹介</h2>
-    <ul class="content-lists">
+    <ul class="content-lists" >
       <li class="content-list">
         <a href="https://order-app-33910.herokuapp.com/" >
           <img src="https://i.gyazo.com/c5e0664debbd420673dd198961b149e2.jpg" alt="top画面" class ="image"> 
@@ -42,7 +36,7 @@
       <%# //コンテンツができれば追加していく// %>
     </ul>
   </div>
-  <div class="middle-content">
+  <div class="middle-content" id="content2">
   <h2 class="heading-name">経歴紹介<h2>
     <ul class="profiles">
       <li class="profile">1982年 福岡県生まれ。</li>
@@ -53,7 +47,7 @@
     </ul>
 
   </div>
-  <div class="bottom-content">
+  <div class="bottom-content" id="content3">
     <h2 class="heading-name">連絡先</h2>
     <ul class="contacts">
       <li class="contact">name</li>
@@ -66,6 +60,7 @@
     <form class="contact-form">
       <textarea placeholder="message" class="large-field"></textarea>
       <input type="submit" value="SEND" class="send">
+      <input type="submit" value="topへ" class="btn">
     </form>
   </div>
 </div>
