@@ -144,7 +144,7 @@ header {
   background-color: #e6ecf0;
   padding: 20px 0 40px;
   border-radius: 10px;
-  border: 6px double black;
+  border: 5px solid lightslategray;
   max-width: 80%;
   height: auto;
   text-align: center;
