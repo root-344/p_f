@@ -19,8 +19,8 @@
       </div>
       <div id="form">
         <h2>ワケアリ</h2>
-        <form action="#">
-          <div class="submit-btn">サイトへ</div>
+        <form action="https://order-app-33910.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+          <p><input type="submit" value="サイトへ" class="submit-btn"></p>
         </form>
       </div>
     </div>
@@ -33,8 +33,8 @@
       </div>
       <div id="form">
         <h2>Web-view</h2>
-        <form action="#">
-          <div class="submit-btn">サイトへ</div>
+        <form action="https://w-v1.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+          <p><input type="submit" value="サイトへ" class="submit-btn"></p>
         </form>
       </div>
     </div>
@@ -48,17 +48,21 @@
     <h2 class="heading-name">コンテンツ紹介</h2>
     <ul class="content-lists" >
       <li class="content-list">
-        <a href="https://order-app-33910.herokuapp.com/" >
+        <a href="https://order-app-33910.herokuapp.com/" target="_blank" rel="noopener noreferrer">
           <img src="https://i.gyazo.com/c5e0664debbd420673dd198961b149e2.jpg" alt="top画面" class ="image"> 
         </a>
-        <p id="cnt-name1" class="cnt-name">ワケアリ</p>
+        <p id="cnt-name1" class="cnt-name">
+          <span class="under">ワケアリ</span>
+        </p>
       </li>
       <%# コンテンツができれば追加していく %>
        <li class="content-list">
-        <a href="https://w-v1.herokuapp.com/" >
+        <a href="https://w-v1.herokuapp.com/" target="_blank" rel="noopener noreferrer">
           <img src="https://i.gyazo.com/e43eabddb720b3b717e74e837153cfe5.jpg" alt="top画面" class ="image"> 
         </a>
-          <p id="cnt-name2" class="cnt-name">Web-view</p>
+          <p id="cnt-name2" class="cnt-name">
+            <span class="under">Web-view</span>
+          </p>
       </li> 
       <%# //コンテンツができれば追加していく// %>
     </ul>
@@ -78,11 +82,17 @@
     <h2 class="heading-name">連絡先</h2>
     <ul class="contacts">
       <li class="contact">name</li>
-        <div class="states">三好正道</div> 
+        <div class="states">
+          <span class="under-contact">三好正道</span>
+        </div> 
       <li class="contact">phone</li>
-        <div class="states">090-6421-5363</div>
+        <div class="states">
+          <span class="under-contact">090-6421-5363</span>
+        </div>
       <li class="contact">E-mail</li>
-        <div class="states">on92.miyoshi.masamichi@gmail.com</div>
+        <div class="states">
+          <span class="under-contact">on92.miyoshi.masamichi@gmail.com</span>
+        </div>
     </ul>
     <form class="contact-form">
       <textarea placeholder="message" class="large-field"></textarea>

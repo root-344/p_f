@@ -113,7 +113,11 @@ header {
   cursor: pointer;
   font-size: 20px;
   font-style: italic;
-  color: yellowgreen;
+  color: goldenrod;
+}
+
+.under {
+  background: linear-gradient(transparent 80%, #CD5C5C 80%);
 }
 
 .mb-5 {
@@ -201,9 +205,12 @@ header {
 }
 
 .states {
-  border-bottom: gold solid 1px;
   max-width: 40vw;
   min-width: 40vw;
+}
+
+.under-contact {
+  border-bottom: 1px solid gold;
 }
 
 .large-field {
@@ -256,7 +263,7 @@ footer {
   color: white;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 614px) {
   .contents {
     background-color: tan;
   }
@@ -313,9 +320,11 @@ footer {
     margin: 15px 0;
   }
   .states {
-    border-bottom: green solid 1px;
     max-width: 40vw;
     min-width: 40vw;
+  }
+  .under-contact {
+    border-bottom: 1px solid blue;
   }
   .large-field {
     width: 800px;
