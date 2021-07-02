@@ -3,7 +3,6 @@
 }
 
 html, body {
-  overflow: auto;
   height: 100%;
 }
 
@@ -48,6 +47,7 @@ header {
 .lists {
   display: flex;
   justify-content: space-around;
+  cursor: pointer;
 }
 
 .lists a {
@@ -99,12 +99,14 @@ header {
   justify-content: space-around;
   align-items: center;
   height: 80%;
+  overflow: scroll;
 }
 
 .content-list {
   height: 200px;
   width: 300px;
   list-style: none;
+  margin: 30px;
 }
 
 .image {
