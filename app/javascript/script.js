@@ -20,4 +20,7 @@ $(function() {
     var content3 = $('#content3').offset().top
     $("html,body").animate({scrollTop:content3},300);
   });
+  $('#t-btn').click(function() {
+    $('html, body').animate({scrollTop: 0}, 300)
+  });
 });
