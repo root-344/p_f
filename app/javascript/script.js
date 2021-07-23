@@ -8,6 +8,9 @@ $(function() {
   $('#cnt-name3').click(function() {
     $('#modal3').fadeIn();
   });
+  $('#cnt-name4').click(function() {
+    $('#modal4').fadeIn();
+  });
   $('.close-modal').click(function() {
     $('.modal-wrapper').fadeOut();
   });
