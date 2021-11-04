@@ -14,6 +14,9 @@ $(function() {
   $('#cnt-name5').click(function() {
     $('#modal5').fadeIn();
   });
+  $('#cnt-name6').click(function() {
+    $('#modal6').fadeIn();
+  });
   $('.close-modal').click(function() {
     $('.modal-wrapper').fadeOut();
   });
